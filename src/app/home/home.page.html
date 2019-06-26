@@ -1,64 +1,11 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-title>
-      Camera
+      Choose party
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
-  <ion-grid>
-    <ion-row>
-      <ion-col size-sm="3" offset-sm="3">
-        <app-location-picker></app-location-picker>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
- <!--  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
-    <ion-fab-button (click)="takePicture()">
-      <ion-icon name="camera"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
-  <img [src]="currentImage" *ngIf="currentImage"> -->
-
-
-
-  <!--  <ion-grid>
-    <ion-row>
-      <ion-col size-md="6" offset-md="3">
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>New Expense</ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            <ion-item>
-              <ion-label position="floating">Expense Reason</ion-label>
-              <ion-input type="text"></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-label position="floating">Expense Amount</ion-label>
-              <ion-input type="number"></ion-input>
-            </ion-item>
-            <div margin-verticcal text-right>
-              <ion-button fill="outline" color="danger">
-                <ion-icon name="close" slot="start"></ion-icon>
-                Clear
-              </ion-button>
-              <ion-button>
-                <ion-icon name="add" slot="start"></ion-icon>
-                Add Expense
-              </ion-button>
-            </div>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
- -->
-
-  <!-- <div class="ion-padding">
-  <p>{{ text }}</p>
-    <ion-button (click)="onChangeText()">Change text</ion-button> 
-  </div>-->
+    <app-map-modal></app-map-modal>
 </ion-content>
