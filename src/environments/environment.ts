@@ -8,6 +8,7 @@ export const url = {
   urlGoogle: 'https://maps.googleapis.com/maps/api/js?key='
 };
 
+/** Estilos para el mapa de google */
 export const stylesGoogle = [
   { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
   { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
